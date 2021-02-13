@@ -1,6 +1,6 @@
 var c = document.createElement("canvas");
 var ctx = c.getContext("2d");
-c.width = 600;
+c.width = 400;
 c.height = 400;
 var size = 30;
 
