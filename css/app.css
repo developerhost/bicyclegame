@@ -1,7 +1,13 @@
 .button {
   position: relative;
-  top: 450px;
+  width: 200px;
+  height: 200px;
+  top: 600px;
   left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /*左右中央揃え*/
+  align-items: center;     /*上下中央揃え*/
 }
 
 .up {
@@ -12,6 +18,7 @@
   color: #FFF;
   border-bottom: solid 4px #627295;
   border-radius: 3px;
+  margin-right: 30px;
 }
 
 .up:active {
@@ -19,6 +26,7 @@
   -webkit-transform: translateY(4px);
   transform: translateY(4px);/*下に動く*/
   border-bottom: none;/*線を消す*/
+  
 }
 
 .down {
@@ -29,6 +37,9 @@
   color: #FFF;
   border-bottom: solid 4px #627295;
   border-radius: 3px;
+  margin-right: 30px;
+  margin-left: 75px;
+  margin-top: 20px
 }
 
 .down:active {
@@ -39,6 +50,7 @@
 }
 
 .right {
+  position: relative;
   display: inline-block;
   padding: 0.5em 1em;
   text-decoration: none;
@@ -46,6 +58,11 @@
   color: #FFF;
   border-bottom: solid 4px #627295;
   border-radius: 3px;
+  margin-right: 30px;
+  /* margin-bottom: 150px; */
+  /* margin-left: 200px; */
+  bottom: 85px;
+  left: 100px;
 }
 
 .right:active {
@@ -63,6 +80,8 @@
   color: #FFF;
   border-bottom: solid 4px #627295;
   border-radius: 3px;
+  margin-right: 30px;
+  margin-top: 100px;
 }
 
 .left:active {

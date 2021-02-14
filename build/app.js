@@ -120,4 +120,20 @@ function loop() {
 onkeydown = d => k[d.key] = 1; //キーを押してる
 onkeyup = d => k[d.key] = 0; //キーを押してない
 
+function up() {
+
+}
+
+function down(){
+
+}
+
+function left(){
+
+}
+
+function right(){
+  
+}
+
 loop();
